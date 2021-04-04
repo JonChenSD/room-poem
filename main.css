@@ -1,0 +1,117 @@
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body
+{
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    font-family: 'Volkhov', serif;
+}
+
+button {
+    font-family: 'Volkhov', serif;
+    font-weight: 700;
+    font-size: 12pt;
+    -webkit-backdrop-filter: blur(10px), drop-shadow();
+    backdrop-filter: blur(10px);
+    margin: 0 auto;
+    z-index: 1;
+    color:  rgb(0, 0, 0);
+    outline: none;
+    border: black;
+    border-style: solid;
+    border-width: 2px;
+    padding: 12px;
+
+
+    transition: 0.2s;
+
+    background: rgb(255, 255, 255);
+
+    /* background:
+    linear-gradient(to right, black 3px, transparent 3px) 0 0,
+    linear-gradient(to right, black 3px, transparent 3px) 0 100%,
+    linear-gradient(to left, black 3px, transparent 3px) 100% 0,
+    linear-gradient(to left, black 3px, transparent 3px) 100% 100%,
+    linear-gradient(to bottom, black 3px, transparent 3px) 0 0,
+    linear-gradient(to bottom, black 3px, transparent 3px) 100% 0,
+    linear-gradient(to top, black 3px, transparent 3px) 0 100%,
+    linear-gradient(to top, black 3px, transparent 3px) 100% 100%;
+
+  background-repeat: no-repeat;
+  background-size: 12px 12px; */
+    }
+
+
+
+#moveCamera{
+    position: absolute;
+   
+    left: 15px;
+    bottom: 15px;
+
+}
+
+#writePoem{
+    position: absolute;
+ 
+    right: 15px;
+    bottom: 15px;
+}
+
+#addObject{
+    position: absolute;
+
+    left:15px;
+    top:15px;
+
+}
+
+#about{
+
+    font-weight: 400;
+    font-size: 16pt;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    right: 15px;
+    top:15px;
+}
+#about:active{
+    background:
+    #ffffff;
+    outline: 3px solid, black;
+    width: calc(100% - (45px + 110px));
+    height: calc(100% - (45px + 40px));
+}
+
+#couch{
+    font-size: 28pt;
+    position: absolute;
+    transform: rotate(-90deg);
+    top:30%;
+    left:30%;
+}
+
+canvas{
+    transition: left .4;
+}
+
+.webgl
+{
+    transition: left .4;
+    position: absolute;
+    top: 0;
+    left: 0;
+    outline: none;
+}
+
+
+
+/*# sourceMappingURL=main.css.map*/
